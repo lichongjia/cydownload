@@ -1,19 +1,18 @@
 Built with Qt 5.10
 
 Tested and working builds on:
-* OSX
+* macOS
 * Windows (MinGW 5.3.0 kit)
 * Linux
 
-# Building and running
+## Building and running on Linux/macOS
+`git clone https://github.com/lichongjia/cydownload.git`
 
-## Linux
-`git clone https://github.com/borishonman/cydownload.git`
+`cd cydownload && mkdir build && cd build`
 
-`cd cydownload`
-
-`qmake cydownload.pro`
+`qmake ../cydownload.pro`
 
 `make`
 
 Type `./cydownload` to run.
+
